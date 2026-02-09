@@ -65,14 +65,20 @@ footer {
 }
 
 #wrapper {
+    background-color: #ffffff;
+    min-width: 960px;
+    max-width: 2048px
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background-color:#ffffff
+    background-color:#ffffff;
+    box-shadow: 0px 5px 5px rgba(66,66,66,0.3);
     
 }
 #students {
     width:300px;
+    background-image:url("images/students.jpg") alt: "some students";
+    width: 300px;
 }
 
 #homehero {
