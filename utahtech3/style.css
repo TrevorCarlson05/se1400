@@ -67,7 +67,7 @@ footer {
 #wrapper {
     background-color: #ffffff;
     min-width: 960px;
-    max-width: 2048px
+    max-width: 2048px;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -77,8 +77,6 @@ footer {
 }
 #students {
     width:300px;
-    background-image:url("images/students.jpg") alt: "some students";
-    width: 300px;
 }
 
 #homehero {
