@@ -29,6 +29,9 @@ h1 {
     text-shadow: 5px 5px 1px rgb(211, 175, 175);
 }
 nav {
+    position: sticky;
+    top:0px;
+    z-index: 1;
     border:2px solid rgb(177, 197, 214);
     border-radius: 7px;
     height:60px;
