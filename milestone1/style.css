@@ -1,14 +1,19 @@
 *{
     box-sizing:border-box;
 }
-
+img {
+    width:100%;
+}
 a {
     color:darkcyan;
     text-decoration: none;
-     font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
-        font-weight: bold;
+    font-weight: bold;
     font-style: normal;
+}
+nav ul li a:hover {
+    background-color:aqua;
 }
 header {
     background-color: rgb(196, 201, 116);
