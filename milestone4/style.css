@@ -25,10 +25,10 @@ nav {
     grid-column:1 / -1;
 }
 #hero {
-    background-color:blue;
-    height:400px;
-    grid-row:3 / 4;
-    grid-column:1 / -1;
+    background-color: blue;
+    height: 400px;
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
 }
 main {
     background-color:yellow;
@@ -50,12 +50,20 @@ body {
 nav a {
     color:dimgrey;
     text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
+    font-family:"Nunito", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
+    font: weight:bold;
     font-style: normal;
 }
     
 nav a:hover {
     background-color:whitesmoke;
+}
+
+#hero {
+    height: 380px;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
