@@ -90,3 +90,11 @@ nav a:hover {
     grid-column:1 / -1;
     text-align:center;
 }
+#assets {
+    background-image:url(images/assets.jpg);
+    background-position:left;
+}
+section {
+display:flex;
+justify-content: space-between;
+}
