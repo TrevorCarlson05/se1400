@@ -3,15 +3,13 @@
    grid-auto-rows: minmax(0, auto);
    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
-<<<<<<< HEAD
 header {
     background-color:white;
     height:105px;
     grid-row:1 / 2;
     grid-column:1 / -1;
 }
-=======
->>>>>>> 2215e65ccab2c523d0f650e41b404811693efc1e
+
 #logo {
     height:80px;
     width:80px;
@@ -32,7 +30,6 @@ header {
 }
 
 nav {
-<<<<<<< HEAD
     background-color: rgb(109, 228, 228);
     height: 30px;
     grid-row:2 / 3;
@@ -43,8 +40,7 @@ nav {
     position: sticky;
     top: 0px;
     z-index: 1;
-    }
-=======
+}
     background-color: rgba(137, 213, 227, 0.763);
     height: 40px;
     grid-row:2 / 3;
@@ -52,7 +48,6 @@ nav {
     text-align:center;
     padding: .5rem .5rem .5rem 2rem;
 }
->>>>>>> 2215e65ccab2c523d0f650e41b404811693efc1e
 #hero {
     background-color: blue;
     height: 600px;
@@ -67,21 +62,15 @@ main {
     margin:0px 10px;
 }
 footer {
-<<<<<<< HEAD
     background-color:rgb(109, 228, 228);
-=======
     background-color: rgba(137, 213, 227, 0.763);
->>>>>>> 2215e65ccab2c523d0f650e41b404811693efc1e
     height:100px;
     grid-row:6 / 7;
     grid-column:1 / -1;
 }
 body {
-<<<<<<< HEAD
     background-color:#ffffff;
-=======
     background-color:white;
->>>>>>> 2215e65ccab2c523d0f650e41b404811693efc1e
     margin:0px;
     min-width:1000px;
 }
@@ -89,7 +78,6 @@ nav a {
     color: rgb(82, 78, 78);
     text-decoration: none;
     font-family:"Nunito", sans-serif;
-<<<<<<< HEAD
     font-optical-sizing: auto;
     font-weight:bold;
     font-style: normal;
@@ -115,7 +103,6 @@ nav a:hover {
         height: 30px;
         grid-row: 4 / 5;
         grid-column: 1 / -1;
-=======
     font-style: normal;
     font-size:1.2em;
     margin: 10px;
@@ -156,5 +143,4 @@ nav a:hover {
 section {
 display:flex;
 justify-content: space-between;
->>>>>>> 2215e65ccab2c523d0f650e41b404811693efc1e
 }
