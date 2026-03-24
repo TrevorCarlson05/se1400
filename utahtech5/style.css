@@ -188,6 +188,12 @@ header {
         grid-column:5 / 8;
         height:auto;
     }
+    main img {
+        float:none;
+        width:100%;
+        padding-left:0;
+        height:auto;
+    }
 }
 @media only screen and (max-width: 600px) {
     header h1 {
