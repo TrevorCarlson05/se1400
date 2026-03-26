@@ -142,7 +142,23 @@ nav a:hover {
     margin-top:auto;
     text-align:center;
 }
-#section {
+#location {
+    border: 5px solid rgb(16, 148, 16);
+    width: 750px;
+    height: 400px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding:1rem;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-image: url("images/IMG_5372\ \(1\).jpeg");
+    background-size:cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+#audience {
     border: 5px solid rgb(16, 148, 16);
     width: 750px;
     height: 400px;
@@ -154,6 +170,23 @@ nav a:hover {
     flex-direction: column;
     border-radius: 30px;
     background-image: url("images/hero.PNG");
+    background-size:cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+#goals {
+    border: 5px solid rgb(16, 148, 16);
+    width: 750px;
+    height: 400px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding:1rem;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-image: url("images/IMG_5372\ \(1\).jpeg");
+    background-size:cover;
     background-position:50% 50%;
     background-repeat:no-repeat;
 }
