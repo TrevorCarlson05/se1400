@@ -233,6 +233,25 @@ label {
         height:auto;
     }
 }
+table {
+    margin:0 auto;
+    border:1px, solid #424242;
+    width:100%;
+    border-collapse:collapse;
+}
+td,th {
+    padding:5px;
+    border:1px, solid #424242;
+}
+td {
+    text-align:center;
+}
+.text {
+    text-align:left;
+}
+tr:nth-of-type(even){
+    background-color:#f3f3f3;
+}
 @media only screen and (max-width: 600px) {
     header h1 {
         background-image:none;
