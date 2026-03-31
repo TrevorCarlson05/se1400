@@ -71,6 +71,7 @@ main {
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-align:center;
 }
 #main {
     height:100%;
@@ -132,10 +133,10 @@ nav a:hover {
     margin-top:auto;
     text-align:center;
 }
+
 #location {
     border: 5px solid rgb(16, 148, 16);
-    width: 750px;
-    height: 400px;
+    min-height: 400px;
     margin-right: 30px;
     margin-top: 10px;
     padding:1rem;
@@ -150,8 +151,7 @@ nav a:hover {
 }
 #audience {
     border: 5px solid rgb(16, 148, 16);
-    width: 750px;
-    height: 400px;
+    min-height: 400px;
     margin-right: 30px;
     margin-top: 10px;
     padding:1rem;
@@ -166,8 +166,7 @@ nav a:hover {
 }
 #goals {
     border: 5px solid rgb(16, 148, 16);
-    width: 750px;
-    height: 400px;
+    min-height: 400px;
     margin-right: 30px;
     margin-top: 10px;
     padding:1rem;
@@ -187,4 +186,13 @@ main a {
     font-optical-sizing: auto;
     font-weight:bold;
     font-style: normal;
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding:1rem;
+    overflow:auto;
+    display:flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-size:auto;
 }
