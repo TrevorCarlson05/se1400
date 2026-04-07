@@ -236,8 +236,7 @@ main a {
         grid-row: 1 / 2;
         height:200px;
         position:relative;
-        background-color:#ffffff;
-        margin:40px;
+        background-color: rgb(109, 228, 228);
     }
     nav ul {
         flex-direction: column;
