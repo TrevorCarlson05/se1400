@@ -118,6 +118,7 @@ nav ul {
 }
 nav ul li {
     width:100%;
+    position:relative;
 }
 nav a {
     color:black;
@@ -143,6 +144,7 @@ nav ul li ul {
     position:absolute;
     width:100%;
     display:none;
+    background-color:rgb(109, 228, 228);
 
 }
 
@@ -236,24 +238,30 @@ main a {
 }
 
 @media only screen and (max-width: 900px) {
+    body {
+        min-width:100%;
+    }
     header h1 {
         background-image:none;
         text-align:center;
     }
     nav {
         flex-flow:column nowrap;
-        grid-column: -1 / -4;
-        grid-row: 1 / 2;
-        height:200px;
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        height:auto;
         position:relative;
         background-color: rgb(109, 228, 228);
     }
     nav ul {
         flex-direction: column;
     } 
+    nav ul li ul {
+    position:relative;
+}
     .col-3 {
         flex-direction: column;
-        width:783px;
+        width:100%;
         margin:30px;
         align-content:center;
     }
