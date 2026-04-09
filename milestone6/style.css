@@ -156,6 +156,18 @@ nav ul li ul {
     background-position: 50% 50%;
     
 }
+#Qualifications {
+    height: 190px;
+    width:190px;
+    background-image: url("images/qualifications.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+Qualifications {
+    float:right;
+    padding:2px;
+}
 #logo {
     height:60px;
     width:60px;
