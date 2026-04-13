@@ -196,7 +196,7 @@ Qualifications {
     display:flex;
     flex-direction: column;
     border-radius: 30px;
-    background-image: url("images/IMG_5372\ \(1\).jpeg");
+    background-image: url("images/location.jpg");
     background-size:cover;
     background-position:50% 50%;
     background-repeat:no-repeat;
@@ -212,7 +212,7 @@ Qualifications {
     display:flex;
     flex-direction: column;
     border-radius: 30px;
-    background-image: url("images/hero.PNG");
+    background-image: url("images/IMG_5372\ \(1\).jpeg");
     background-size:cover;
     background-position:50% 50%;
     background-repeat:no-repeat;
@@ -227,7 +227,7 @@ Qualifications {
     display:flex;
     flex-direction: column;
     border-radius: 30px;
-    background-image: url("images/IMG_5372\ \(1\).jpeg");
+    background-image: url("images/goals.jpeg");
     background-size:cover;
     background-position:50% 50%;
     background-repeat:no-repeat;
