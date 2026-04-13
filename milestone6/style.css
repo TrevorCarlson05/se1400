@@ -164,6 +164,27 @@ nav ul li ul {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+#Japan {
+    height: 190px;
+    width: 190px;
+    background-image: url("images/japan.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+Japan {
+    float:right;
+    padding:2px;
+}
+#Success {
+    height: 190px;
+    width: 190px;
+    background-image: url("images/success.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 Qualifications {
     float:right;
     padding:2px;
