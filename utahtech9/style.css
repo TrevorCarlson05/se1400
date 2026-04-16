@@ -282,7 +282,7 @@ video {
         padding-left:0;
         height:auto;
     }
-}
+
 @media only screen and (max-width: 600px) {
     #shoppingcart {
     grid-template-columns:1fr;}
@@ -298,4 +298,3 @@ video {
     #homehero, #studenthero, #facultyhero, #alumnihero, #shophero{
         display:none;
     }
-}
