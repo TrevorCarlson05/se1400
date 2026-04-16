@@ -165,8 +165,8 @@ nav ul li ul {
     background-position: 50% 50%;
 }
 #Japan {
-    height: 190px;
-    width: 190px;
+    height: 400px;
+    width: 100%;
     background-image: url("images/japan.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
