@@ -255,7 +255,7 @@ video {
 }
 @media only screen and (max-width: 900px) {
     #shoppingcart {
-        grid-template-columns:1fr 1fr;
+        grid-template-columns:1fr 1fr;}
     }
     video {
         float:none;
@@ -285,7 +285,7 @@ video {
 }
 @media only screen and (max-width: 600px) {
     #shoppingcart {
-    grid-template-columns:1fr;
+    grid-template-columns:1fr;}
     header h1 {
         background-image:none;
         text-align:center;
