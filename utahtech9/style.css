@@ -255,7 +255,7 @@ video {
 }
 @media only screen and (max-width: 900px) {
     #shoppingcart {
-        grid-template-columns:1fr;
+        grid-template-columns:1fr 1fr;
     }
     video {
         float:none;
