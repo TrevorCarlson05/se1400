@@ -39,7 +39,15 @@
                 </ul>
             </nav>
 
-            <div id="hero"></div>
+                <div id="hero" class="gallery">
+                <img src="images/japan.jpeg" class="active">
+                <img src="images/IMG_5372 (1).jpeg">
+                <img src="images/location.jpg">
+
+                <button class="arrow left">&#10094;</button>
+                <button class="arrow right">&#10095;</button>
+                </div>
+
             <div id="spacer"></div>
 
             <main>
@@ -71,5 +79,58 @@
 
             </footer>
         </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+
+                    const images = document.querySelectorAll('#hero img');
+                    const nextBtn = document.querySelector('.arrow.right');
+                    const prevBtn = document.querySelector('.arrow.left');
+
+                    let index = 0;
+                    let interval;
+
+                    function showImage(newIndex) {
+                        images.forEach(img => img.classList.remove('active'));
+
+                        index = (newIndex + images.length) % images.length;
+
+                        images[index].classList.add('active');
+                    }
+
+                    function nextSlide() {
+                        showImage(index + 1);
+                    }
+
+                    function prevSlide() {
+                        showImage(index - 1);
+                    }
+
+                    function startAuto() {
+                        interval = setInterval(() => {
+                            nextSlide();
+                        }, 5000);
+                    }
+
+                    function resetInterval() {
+                        clearInterval(interval);
+                        startAuto();
+                    }
+
+                    if (nextBtn && prevBtn) {
+                        nextBtn.addEventListener('click', () => {
+                            nextSlide();
+                            resetInterval();
+                        });
+
+                        prevBtn.addEventListener('click', () => {
+                            prevSlide();
+                            resetInterval();
+                        });
+                    }
+
+                    startAuto();
+
+                });
+            </script>
     </body>
 </html>

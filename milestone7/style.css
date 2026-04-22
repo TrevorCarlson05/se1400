@@ -69,6 +69,81 @@ nav {
     grid-row: 3 / 5;
     grid-column: 1 / -1;
 }
+#hero.gallery {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+#hero.gallery {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#hero.gallery img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 100%;
+    /* start off-screen */
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+
+#hero.gallery img.active {
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
+
+#hero.gallery img.prev {
+    left: -100%;
+    opacity: 0;
+    z-index: 1;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.arrow:hover {
+    background: rgb(109, 228, 228);
+}
+
+#hero.gallery img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#hero.gallery img.active {
+    opacity: 1;
+}
 #spacer {
     background-color: rgb(109, 228, 228);
     height: 30px;
@@ -86,6 +161,9 @@ main {
 }
 main h2 {
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+main h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .col-3 {
     display:flex;
@@ -200,6 +278,10 @@ nav ul li ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+.navbar {
+    position: relative;
+    z-index: 1000;
 }
 .boxp {
     float: none;
