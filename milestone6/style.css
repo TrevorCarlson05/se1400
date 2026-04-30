@@ -92,6 +92,9 @@ main h2 {
     justify-content:center;
     align-items:center;
 }
+.col-3 h2 {
+    color: rgb(16, 148, 16);
+}
 #main {
     height:100%;
     width: 100%;
