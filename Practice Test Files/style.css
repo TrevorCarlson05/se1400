@@ -74,6 +74,7 @@ h3 {
     font-style: italic;
     font-size:.75rem;
     float:right;
+    text-align: center;
 }
 .logo {
     width:90%;
@@ -102,10 +103,13 @@ video {
         width:100%;
         padding:0px;
         float:none;
+        text-align:center;
+        height:auto;
     }
     nav {
         grid-column: 1 / -1;
         text-align: center;
+        padding-bottom: 0px;
     }
     main {
         grid-column: 1 / -1;

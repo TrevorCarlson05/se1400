@@ -77,23 +77,32 @@ h3 {
 }
 .logo {
     width:90%;
-    padding-top:20px;
+    padding-bottom:0px;
     max-width:200px;
 }
+
 .responsive { /*this is how you make your image responsive. Make sure you reference this class in the html image tags*/
     width:100%;
 }
+
 video {
     width:100%;
     height:320px;
     float:left;
     padding-right:20px;
+    height: auto;
 }
 .clear { /* linked to gardens (via class div tag) to make sure that the header only appears after the image, leading to no overlap*/
     clear:both;
 }
+.centered {
+    text-align: center;
+}
+.red {
+    color:red;
+    text-decoration:underline;
+}
 
-/* Media Query of 960 and less goes here */
 @media screen and (max-width: 960px) {
     nav ul {
         flex-direction: row;
@@ -103,13 +112,18 @@ video {
         width:100%;
         padding:0px;
         float:none;
+        height:auto;
     }
     nav {
         grid-column: 1 / -1;
         text-align: center;
+        text-align:bottom;
     }
     main {
         grid-column: 1 / -1;
         grid-row:2 / 3;
+    }
+    footer {
+        grid-column: 1 / -1;
     }
 }
